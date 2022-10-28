@@ -1,0 +1,185 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<title>CSS Website Layout</title> 
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<style> 
+ 
+ 
+ p { 
+  border-width: 1px;; 
+   
+ } 
+  body { 
+     
+            background-image :url('bg-3.jpg'); 
+            background-repeat: no-repeat; 
+            background-attachment: fixed; 
+            background-size: cover; 
+             
+          } 
+ 
+ 
+body { 
+  margin: 0; 
+} 
+ 
+/* Style the header */ 
+.header { 
+  background-color: hsl(10, 20%, 95%); 
+  padding: 20px; 
+  text-align: center; 
+} 
+ 
+/* Style the top navigation bar */ 
+.topnav { 
+  overflow: hidden; 
+  background-color: hsl(0, 0%,20%); 
+} 
+ 
+/* Style the topnav links */ 
+.topnav a { 
+  float: left; 
+  display: block; 
+  color: seablue; 
+  text-align: center; 
+  padding: 14px 16px; 
+  text-decoration: none; 
+} 
+ 
+/* Change color on hover */ 
+.topnav a:hover { 
+  background-color: #0000ff; 
+  color: black; 
+} 
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.logo{
+    text-align: center; 
+    
+}
+.footer { 
+  background-color: hsl(0, 0%, 95%); 
+  padding: 20px; 
+  text-align: center; 
+} 
+ 
+/* Style the top navigation bar */ 
+.footer { 
+  overflow: hidden; 
+  background-color: hwb(0 53% 45%); 
+} 
+ 
+/* Style the topnav links */ 
+.footer a { 
+  float: left; 
+  display: block; 
+  color: seablue; 
+  text-align: center; 
+  padding: 14px 16px; 
+  text-decoration: none; 
+} 
+ 
+/* Change color on hover */ 
+.footer a:hover { 
+  background-color: #0000ff; 
+  color: black; 
+} 
+ 
+</style> 
+</head> 
+<body>
+    <div class="logo">
+        <logo><img src="logo.jpg" width="50" height="50"></logo>
+        <h1>CHRISTLIFE IMPACT MINISTRY</div></h1>
+        </div>
+ 
+ 
+<div class="header"> 
+  <h1>WELCOME TO CIM COMMENT AND TESTIMONY SECTION</h1>
+  Please fillnin the space and make sure you leave a comment or testimony in the space provided below .
+  
+</div> 
+ 
+<div class="topnav"> 
+ 
+   
+</div>
+
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="Nigeria">Nigeria</option>
+      <option value="Togo">Togo</option>
+      <option value="Algeria">Algeria</option>
+      <option value="Ghana">Ghana</option>
+      <option value="Germany">Germany</option>
+      <option value="France">France</option>
+      <option value="united Kingdom">UK</option>
+      
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type= "submit" > <a href="home.html"></a><br>
+  
+   <center>thank you ,Jesus loves you ! </center>
+
+  </form>
+</div>
+<div class="footer">
+    <a href="home.html">Home</a> 
+    <a href="service.html">Services</a> 
+    <a href="children.html">Kids</a> 
+    <a href="comment.html">comment</a> 
+</div>  
+  
+ 
+</style> 
+</head> 
+<body>
